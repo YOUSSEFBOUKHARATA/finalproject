@@ -1,0 +1,91 @@
+.navbar{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #0082e6;
+    height: 80px;
+    width: 1550;
+    justify-content: space-between;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+.search{
+    margin-top: 25px;
+}
+.navbar input[type="text"]{
+    padding:6px ;
+    margin-top:8px;
+    font-size: 17px;
+    border: none;
+    border-radius: 100px;
+
+}
+.navbar .search button{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    border-radius: 100px;
+    background-color: dodgerblue;
+    color: white;
+    margin-left: 10px;
+    transition: opacity 0.5s;
+}
+.navbar .search button:hover{
+    opacity: 0.7;
+}
+.nav{
+    float: right;
+    margin-right: 20px;
+
+}
+.nav li{
+    display: inline-block;
+    line-height: 80px;
+    padding: 5x;
+    margin: 0 5px;
+
+}
+.nav li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase
+
+}
+
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+
+.films{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+img{
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+}
+
+input,
+label {
+    margin: 0.4rem 0;
+}

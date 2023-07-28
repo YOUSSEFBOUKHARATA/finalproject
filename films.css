@@ -1,0 +1,96 @@
+.navbar{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #0082e6;
+    height: 80px;
+    width: 1550;
+    align-items: end;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+.nav{
+    float: right;
+    margin-right: 20px;
+    
+
+}
+.nav li{
+    display: inline-block;
+    line-height: 80px;
+    padding: 5x;
+    margin: 0 5px;
+
+}
+.nav li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase
+
+}
+
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+
+
+.action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 50px
+
+
+    
+}
+iframe{
+    width: 420px;
+    height: 300px;
+}
+.p{
+    font-size: 30px;
+}
+.adventure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 50px
+}
+
+.drama{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 50px
+}
+.crime{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 50px
+}
+img{
+   
+    width: 200px;
+    height: 300px;
+}
+h2{
+    margin-left: 40px;
+
+}
+h3{
+    margin-left: 35px;
+}

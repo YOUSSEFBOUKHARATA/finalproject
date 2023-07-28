@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="final.css">
+    
+</head>
+<body>
+ 
+    <section class="navbar">
+        <label class="logo">The movie house </label>
+
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+        <ul id="myUL">
+          <li><a href="extraction.html">extraction</a></li>
+         
+          <li><a href="12angry men.html">12 angry men</a></li>
+        
+          <li><a href="drama.html">Film Drama</a></li>
+          <li><a href="forrest gump.html">forrest gump</a></li>
+        
+          <li><a href="gladiator.html">gladiator</a></li>
+          <li><a href="good will hunting.html">good will hunting</a></li>
+        
+          <li><a href="goodfellas.html">goodfellas</a></li>
+          <li><a href="guardians of time.html">guardiens of time </a></li>
+        
+          <li><a href="inception.html">inception </a></li>
+          <li><a href="indianajones.html">indiana jones</a></li>
+        
+          <li><a href="john wick.html">john wick</a></li>
+          <li><a href="jung e.html">jung-e</a></li>
+        
+          <li><a href="justice league.html">justice league</a></li>
+          <li><a href="kandahar.html">kandahar</a></li>
+        
+          <li><a href="knights of zodiac.html">knights of zodiac</a></li>
+          <li><a href="mission impossible.html">mission impossible</a></li>
+        
+          <li><a href="peter pan .html">peter pan</a></li>
+          <li><a href="plane .html">plane<ure/a></li>
+        
+          <li><a href="powerbook.html">powerbook</a></li>
+          <li><a href="pulp fiction.html">pulp fiction</a></li>
+        
+          <li><a href="resident evil.html">resident evil</a></li>
+          <li><a href="scarface.html">scarface</a></li>
+        
+          <li><a href="schindlers list.html">schindlers</a></li>
+          <li><a href="SLEEPING DOG.html">sleeping dog</a></li>
+        
+         
+          <li><a href="spirit halloween.html">spirit halloween</a></li>
+          <li><a href="the channel.html">the channel</a></li>
+          <li><a href="the departed.html">the departed</a></li>
+          <li><a href="the flash.html">the flash</a></li>
+          <li><a href="the godfather1.html">the godfather1</a></li>
+          <li><a href="the godfather2.html">the godfather2</a></li>
+          <li><a href="the godfather3.html">the godfather3</a></li>
+          <li><a href="the green mile.html">the green mile</a></li>
+          <li><a href="the last kingdom .html">the last kingdom seven kings must die</a></li>
+          <li><a href="the magic flute.html">the magic flute</a></li>
+          <li><a href="the middle kingdom.html">Asterix & Obelix: The Middle Kingdom</a></li>
+          <li><a href="the night agent.html">the night agent</a></li>
+          <li><a href="the prestige.html">the prestige</a></li>
+          <li><a href="the shawshank.html">The Shawshank Redemption</a></li>
+          <li><a href="the wrath of becky.html">the wrath of becky</a></li>
+          <li><a href="warrior.html">warrior</a></li>
+          
+        
+        
+        </ul>
+        
+        <script>
+        function myFunction() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+        </script>
+        
+    <ul class="nav">
+        <li>
+            <a class="active" href="final.html">Home</a>
+        </li>
+        <li>
+            <a href="action.html">Action</a>
+        </li>
+        <li>
+            <a href="adventure.html">Adventure</a>
+        </li>
+        <li>
+            <a href="drama.html">Drama</a>
+        </li>
+        <li>
+            <a href="crime .html">Crime</a>
+        </li>
+
+    </ul>
+    </section>
+    <section class="films">
+        <img src="https://images.m4ufree.vip/asset/2023/june/mission-impossible-dead-reckoning-part-one-2023.jpg" alt="" >
+        <img src="https://images.m4ufree.vip/asset/2023/march/john-wick-chapter-4-2023.jpg" alt="">
+        <img src="https://images.m4ufree.vip/asset/2023/may/fast-x-2023.jpg" alt="">
+        <img src="https://images.m4ufree.vip/asset/2023/june/extraction-2-2023-v1.jpg" alt="">
+        <img src="https://images.m4ufree.vip/asset/2023/june/kandahar-2023.jpg" alt="">
+        <img src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQXUpVhfnjzY01pU1p4ta9hEhQ3gGsCooCyJ3M890P9UwzPG_yJW2EzvdnYta43RX8u" alt="">
+        <img src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcSaQBJTZNz49zecP0qdR-4dFjjU1j0ji7OLq0zuIRza0I717XQ9pJl0RRgUn-SUvAGq" alt="">
+        <img src="https://dx35vtwkllhj9.cloudfront.net/united-artists-releasing/creed-iii/images/regions/us/onesheet.jpg" alt="">
+        <img src="https://flixable.b-cdn.net/amazon-prime-video/large/fr/my-fault.png" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2xg8PHeFr8v7UqkdvKc9EwNdGVmF22wMCFiI36rVr7-Ysg_Dx" alt="">
+        <img src="https://m.media-amazon.com/images/M/MV5BY2NmNmEzNGQtZjBjOC00MWRiLWE5ZTQtZTA3NDhkNmMzM2M4XkEyXkFqcGdeQXVyOTc0NDI5MjY@._V1_FMjpg_UX1000_.jpg" alt="">
+        <img src="https://musicart.xboxlive.com/7/3cf35000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080" alt="">
+        <img src="http://vignette3.wikia.nocookie.net/moviefanfictaion/images/c/c6/21b87kw.png/revision/latest?cb=20141127174051" alt="">
+        <img src="https://www.ecranlarge.com/media/cache/resolve/160x213/uploads/image/000/996/hitman-bodyguard-affiche-996442.jpg" alt="">
+        <img src="https://filme-tari.net/wp-content/uploads/2020/01/the-nun-2.jpg" alt="">
+    </section>
+    <script>src="./search.js"</script>
+    
+</body>
+</html>
